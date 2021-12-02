@@ -17,5 +17,5 @@ int exerciseTwo(string arr[], int arrSize, string searchTerm)
 
 int* exerciseThree(int arrayFill, int arrSize)
 {
-	return [0]; // TODO: fix
+	return {0}; // TODO: fix
 }
