@@ -18,7 +18,7 @@ TEST_CASE("Exercise One") //Named ExerciseOne, tagged with example
     
     
     CHECK(exerciseTwo(jhoto_pokemon,100,"Pikachu") == -1);
-    CHECK(exerciseTwo(jhoto_pokemon,100,"Celebi") == 98);
+    CHECK(exerciseTwo(jhoto_pokemon,100,"Celebi") == 99);
     CHECK(exerciseTwo(jhoto_pokemon,100,"Chikorita") == 0);
     CHECK(exerciseTwo(jhoto_pokemon,100,"Stantler") == 82);  //This may be off by about 1
 }
